@@ -1,0 +1,352 @@
+# ==============================================
+# Lyra Learn — Butterfly Theme Configuration
+# 炫酷动态背景 + 暗黑模式 + 代码高亮
+# ==============================================
+
+# --------------------------------------
+# Navigation
+# --------------------------------------
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: true
+
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
+  About: /about/ || fas fa-user
+  # Resources: /resources/ || fas fa-box
+
+# --------------------------------------
+# Code Blocks — Dark theme for code
+# --------------------------------------
+code_blocks:
+  theme: darker
+  macStyle: true
+  height_limit: false
+  word_wrap: true
+  copy: true
+  language: true
+  shrink: false
+  fullpage: false
+
+# --------------------------------------
+# Social Links
+# --------------------------------------
+social:
+  fab fa-github: https://github.com/ || GitHub || '#24292e'
+
+# --------------------------------------
+# Images & Branding
+# --------------------------------------
+favicon:
+avatar:
+  img:
+  effect: true
+
+# --------------------------------------
+# Banner Images — Cyberpunk / Tech feel
+# --------------------------------------
+disable_top_img: false
+default_top_img:
+
+# Website Background — Dark cyberpunk gradient
+background: '#0d1117'
+
+# --------------------------------------
+# Post Meta
+# --------------------------------------
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# --------------------------------------
+# Homepage Settings
+# --------------------------------------
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    typeSpeed: 80
+    backSpeed: 50
+    backDelay: 2000
+    loop: true
+  source: false
+  sub:
+    - 🎮 深入探索 UE5 Lyra Starter Game
+    - 🏗️ 拆解 Gameplay Ability System 架构
+    - ⚡ 从零到精通，每一行代码都值得理解
+    - 🔥 Building the future, one commit at a time
+
+index_layout: 3
+
+index_post_content:
+  method: 3
+  length: 300
+
+# --------------------------------------
+# Post Settings
+# --------------------------------------
+toc:
+  post: true
+  page: false
+  number: true
+  expand: true
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+related_post:
+  enable: true
+  limit: 6
+  date_type: created
+
+post_pagination: 1
+
+# --------------------------------------
+# Footer
+# --------------------------------------
+footer:
+  owner:
+    enable: true
+    since: 2025
+  copyright:
+    enable: true
+    version: true
+  custom_text: 'Learning UE5 Lyra, one commit at a time. 🚀'
+
+# --------------------------------------
+# Aside (Sidebar)
+# --------------------------------------
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 'UE5 Lyra 深度学习者'
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/
+  card_announcement:
+    enable: true
+    content: '🚀 正在系统学习 UE5 Lyra Starter Game，从架构到细节，记录每一份理解。'
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+    orderby: random
+    order: 1
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+  card_post_series:
+    enable: true
+    series_title: false
+    orderBy: 'date'
+    order: -1
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# --------------------------------------
+# Dark Mode — Auto switch at 6pm / 6am
+# --------------------------------------
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 2
+  start: 6
+  end: 18
+
+display_mode: dark
+
+# Read Mode
+readmode: true
+
+# --------------------------------------
+# Theme Colors — Cyberpunk Blue
+# --------------------------------------
+theme_color:
+  enable: true
+  main: '#00d4ff'
+  paginator: '#00d4ff'
+  button_hover: '#ff6b35'
+  text_selection: '#00d4ff'
+  link_color: '#58a6ff'
+  meta_color: '#8b949e'
+  hr_color: '#30363d'
+  code_foreground: '#f0883e'
+  code_background: 'rgba(22, 27, 34, 0.8)'
+  toc_color: '#00d4ff'
+  blockquote_padding_color: '#00d4ff'
+  blockquote_background_color: 'rgba(0, 212, 255, 0.1)'
+  scrollbar_color: '#00d4ff'
+  meta_theme_color_light: 'ffffff'
+  meta_theme_color_dark: '#0d1117'
+
+# Rounded Corners
+rounded_corners_ui: true
+
+# Mask on header/footer
+mask:
+  header: true
+  footer: true
+
+# --------------------------------------
+# Loading Animation
+# --------------------------------------
+preloader:
+  enable: true
+  source: 1
+
+# Page Transition
+enter_transitions: true
+
+# --------------------------------------
+# 🎆 DYNAMIC BACKGROUND EFFECTS (炫酷特效)
+# --------------------------------------
+
+# Canvas Nest — 网络粒子连线动画
+# 像黑客帝国一样的粒子网络
+canvas_nest:
+  enable: true
+  color: '0,212,255'
+  opacity: 0.6
+  zIndex: -1
+  count: 99
+  mobile: true
+
+# Canvas Ribbon — 流光飘带动画
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.5
+  zIndex: -1
+  click_to_change: true
+  mobile: false
+
+# Fireworks — 点击烟花特效
+fireworks:
+  enable: true
+  zIndex: 9999
+  mobile: false
+
+# Click Heart — 点击爱心特效
+click_heart:
+  enable: true
+  mobile: false
+
+# Activate Power Mode — 打字粒子爆炸 💥
+activate_power_mode:
+  enable: true
+  colorful: true
+  shake: false
+  mobile: false
+
+# --------------------------------------
+# Search — Local Search
+# --------------------------------------
+search:
+  use: local_search
+  placeholder: '搜索 Lyra 学习笔记...'
+
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+
+# --------------------------------------
+# Comments — Giscus (GitHub Discussions)
+# --------------------------------------
+comments:
+  use:
+  text: true
+  lazyload: true
+  count: false
+  card_post_count: false
+
+# --------------------------------------
+# Share
+# --------------------------------------
+share:
+  use: sharejs
+  sharejs:
+    sites: facebook,x,wechat,weibo,qq
+
+# --------------------------------------
+# Other Effects
+# --------------------------------------
+
+# Copy with copyright
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 150
+
+# --------------------------------------
+# PWA
+# --------------------------------------
+pwa:
+  enable: false
+
+# --------------------------------------
+# Inject custom CSS/JS (for future customization)
+# --------------------------------------
+inject:
+  head:
+  bottom:
+
+# --------------------------------------
+# CDN
+# --------------------------------------
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true

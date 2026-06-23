@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+public/
+.deploy_git/
+
+# Hexo
+db.json
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
