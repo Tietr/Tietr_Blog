@@ -1,5 +1,5 @@
 # ==============================================
-# Lyra Learn — Butterfly Theme Configuration
+# DevLog — Butterfly Theme Configuration
 # 炫酷动态背景 + 暗黑模式 + 代码高亮
 # ==============================================
 
@@ -37,7 +37,7 @@ code_blocks:
 # Social Links
 # --------------------------------------
 social:
-  fab fa-github: https://github.com/ || GitHub || '#24292e'
+  fab fa-github: https://github.com/Tietr || GitHub || '#24292e'
 
 # --------------------------------------
 # Images & Branding
@@ -87,10 +87,10 @@ subtitle:
     loop: true
   source: false
   sub:
-    - 🎮 深入探索 UE5 Lyra Starter Game
-    - 🏗️ 拆解 Gameplay Ability System 架构
-    - ⚡ 从零到精通，每一行代码都值得理解
-    - 🔥 Building the future, one commit at a time
+    - 🎮 游戏开发 | 渲染管线 | 引擎架构
+    - 🔬 深入源码，理解底层设计
+    - ⚡ 记录每一份技术沉淀
+    - 🔥 Keep learning, keep building
 
 index_layout: 3
 
@@ -133,7 +133,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: 'Learning UE5 Lyra, one commit at a time. 🚀'
+  custom_text: 'Keep learning, keep building. 🚀'
 
 # --------------------------------------
 # Aside (Sidebar)
@@ -150,15 +150,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 'UE5 Lyra 深度学习者'
+    description: '游戏开发 · 渲染 · 架构'
     button:
       enable: true
       icon: fab fa-github
       text: GitHub
-      link: https://github.com/
+      link: https://github.com/Tietr
   card_announcement:
     enable: true
-    content: '🚀 正在系统学习 UE5 Lyra Starter Game，从架构到细节，记录每一份理解。'
+    content: '🚀 持续学习游戏开发、渲染技术、引擎架构，记录每一份技术理解。'
   card_recent_post:
     enable: true
     limit: 5

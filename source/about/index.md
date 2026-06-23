@@ -4,26 +4,25 @@ date: 2026-06-23 22:00:00
 type: about
 ---
 
-## 关于 Lyra Learn
+## 关于 DevLog
 
-**Lyra Learn** 是一个专注于 Unreal Engine 5 Lyra Starter Game 深度学习的技术博客。
+**DevLog** 是我的个人技术学习博客，专注游戏开发、渲染技术、引擎架构、现代C++等领域。
 
-### 我为什么创建这个博客？
+### 为什么创建这个博客？
 
-Lyra 是 UE5 时代最重要的学习资源之一。它不仅仅是一个示例项目，更像是一本**用代码写成的教科书**。
+在学习复杂技术的过程中，我发现**写作是最好的思考方式**。将知识整理成文章，既能加深自己的理解，也希望能帮到同样在探索的开发者。
 
-然而，Lyra 的体量庞大、模块众多，仅仅靠阅读源码很容易迷失。于是我将学习过程系统化，以博客的形式记录每一步的理解与思考。
+### 涵盖方向
 
-### 技术栈
-
-- 🎮 **Unreal Engine 5.x**
-- ⚔️ **Gameplay Ability System**
-- 🖥️ **C++ & Blueprints**
-- 🧩 **Modular Gameplay Architecture**
+- 🎮 **游戏开发** — UE5、游戏框架、Gameplay 系统设计
+- 🖼️ **图形渲染** — Shader、渲染管线、实时 GI
+- 🏗️ **引擎架构** — 模块化设计、ECS、插件系统
+- ⚡ **现代 C++** — 模板元编程、性能优化、最佳实践
+- 🔧 **工具链** — 构建系统、CI/CD、开发效率
 
 ### 联系我
 
-- GitHub: [@yourusername](https://github.com/)
+- GitHub: [@Tietr](https://github.com/Tietr)
 
 ---
 

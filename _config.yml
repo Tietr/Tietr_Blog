@@ -3,17 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Lyra Learn
-subtitle: 'UE5 Lyra 学习笔记 — 从零到精通'
-description: '深入探索 Unreal Engine 5 Lyra Starter Game 的架构、Gameplay、系统设计与最佳实践。'
+title: DevLog
+subtitle: '游戏开发 · 图形渲染 · C++ · 引擎架构'
+description: '个人技术学习博客 — 游戏开发、渲染管线、引擎架构、现代C++、工具链等深度技术笔记。'
 keywords:
-  - UE5
-  - Lyra
-  - Unreal Engine
   - Game Development
+  - UE5
+  - Rendering
   - C++
-  - Gameplay Ability System
-author: Lyra Learner
+  - Graphics
+  - Engine Architecture
+  - Shader
+  - Gameplay
+author: Tietr
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -70,12 +72,14 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: Lyra
+default_category: notes
 category_map:
-  架构: architecture
-  Gameplay: gameplay
+  游戏开发: game-dev
+  渲染: rendering
+  引擎架构: engine
   C++: cpp
-  系统设计: system-design
+  工具链: toolchain
+  数学基础: math
 tag_map:
 
 # Metadata elements

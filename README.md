@@ -1,15 +1,15 @@
-# 🎮 Lyra Learn — UE5 Lyra 学习博客
+# 🎮 DevLog — 个人技术学习博客
 
-[![Deploy Hexo to GitHub Pages](https://github.com/yourusername/Lyra_Learn/actions/workflows/pages.yml/badge.svg)](https://github.com/yourusername/Lyra_Learn/actions/workflows/pages.yml)
+[![Deploy Hexo to GitHub Pages](https://github.com/Tietr/Lyra_Learn/actions/workflows/pages.yml/badge.svg)](https://github.com/Tietr/Lyra_Learn/actions/workflows/pages.yml)
 
-> 深入探索 Unreal Engine 5 Lyra Starter Game 的架构、Gameplay、系统设计与最佳实践。
+> 游戏开发 · 渲染技术 · 引擎架构 · 现代C++ · 工具链
 
 ## ✨ 特性
 
-- 🎨 **炫酷动态背景** — Canvas Nest 网络粒子 + Ribbon 流光飘带 + 点击特效
+- 🎨 **炫酷动态背景** — Canvas Nest 网络粒子 + Ribbon 流光飘带 + 点击特效 + 打字粒子
 - 🌙 **暗黑模式** — 自动跟随时间切换（18:00 → 暗色，6:00 → 亮色）
-- 🔍 **全文搜索** — 本地搜索引擎
-- 📝 **Markdown 写作** — 支持代码高亮、Mermaid 流程图、数学公式
+- 🔍 **全文搜索** — 本地搜索引擎，快速检索
+- 📝 **Markdown 写作** — 代码高亮、流程图、数学公式全支持
 - 🚀 **GitHub Pages 部署** — Push 即自动构建发布
 
 ## 🗂️ 项目结构
@@ -44,15 +44,13 @@ Lyra_Learn/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/Lyra_Learn.git
+git clone https://github.com/Tietr/Lyra_Learn.git
 cd Lyra_Learn
 
 # 安装依赖
 npm install
 
 # 启动本地服务器
-hexo server
-# 或
 npm run server
 ```
 
@@ -61,31 +59,33 @@ npm run server
 ### 创建新文章
 
 ```bash
-hexo new post "My UE5 Lyra Note"
-```
+hexo new post "文章标题"
+# → source/_posts/文章标题.md
 
-Markdown 文件将生成在 `source/_posts/` 目录下。
+hexo new draft "草稿标题"
+# → source/_drafts/草稿标题.md
+```
 
 ### 构建 & 部署
 
-Push 到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
+Push 到 `main` 分支后，GitHub Actions 自动构建部署到 GitHub Pages。
 
 也可以手动构建：
 
 ```bash
-hexo generate
-# 输出在 public/ 目录
+hexo generate        # 构建，输出到 public/
+hexo clean && hexo generate   # 清理后重新构建
 ```
 
-## 📖 学习路线
+## 📖 学习方向
 
-| Phase | 主题 | 状态 |
-|-------|------|------|
-| 1 | 项目架构概览 | 🔜 |
-| 2 | 核心 Gameplay 系统 | 🔜 |
-| 3 | UI 与交互 | 🔜 |
-| 4 | 多人游戏与网络 | 🔜 |
-| 5 | 进阶主题 | 🔜 |
+| 方向 | 内容 |
+|------|------|
+| 🎮 游戏开发 | UE5, Gameplay System, Lyra |
+| 🖼️ 渲染 | Shader, Vulkan/DX, Real-Time Rendering |
+| ⚡ 现代C++ | 模板元, C++20/23, 性能优化 |
+| 🏗️ 引擎架构 | ECS, 模块化, 插件系统 |
+| 🔧 工具链 | 构建系统, CI/CD, 效率工具 |
 
 ## 📄 License
 
