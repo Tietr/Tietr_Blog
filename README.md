@@ -44,7 +44,7 @@ Lyra_Learn/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/Tietr/Lyra_Learn.git
+git clone https://github.com/Tietr/Tietr_Blog.git
 cd Lyra_Learn
 
 # 安装依赖
@@ -54,7 +54,7 @@ npm install
 npm run server
 ```
 
-浏览器打开 `http://localhost:4000/Lyra_Learn/` 预览。
+浏览器打开 `http://localhost:4000/Tietr_Blog/` 预览。
 
 ### 创建新文章
 
@@ -79,13 +79,13 @@ hexo clean && hexo generate   # 清理后重新构建
 
 ## 📖 学习方向
 
-| 方向 | 内容 |
-|------|------|
-| 🎮 游戏开发 | UE5, Gameplay System, Lyra |
-| 🖼️ 渲染 | Shader, Vulkan/DX, Real-Time Rendering |
-| ⚡ 现代C++ | 模板元, C++20/23, 性能优化 |
-| 🏗️ 引擎架构 | ECS, 模块化, 插件系统 |
-| 🔧 工具链 | 构建系统, CI/CD, 效率工具 |
+| 方向          | 内容                                   |
+| ------------- | -------------------------------------- |
+| 🎮 游戏开发   | UE5, Gameplay System, Lyra             |
+| 🖼️ 渲染     | Shader, Vulkan/DX, Real-Time Rendering |
+| ⚡ 现代C++    | 模板元, C++20/23, 性能优化             |
+| 🏗️ 引擎架构 | ECS, 模块化, 插件系统                  |
+| 🔧 工具链     | 构建系统, CI/CD, 效率工具              |
 
 ## 📄 License
 
